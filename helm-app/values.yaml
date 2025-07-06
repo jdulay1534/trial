@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/gb-frontend
-  tag: v5
+  repository: 276824024359.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-server-demo-private
+  tag: latest
   pullPolicy: IfNotPresent
 
 containerPort: 80
